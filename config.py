@@ -1,6 +1,6 @@
-import os
-
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+# Project Root /config.py
+# This is a central place to store all the configuration settings for the project.
+# Avoid having configuration settings scattered throughout the codebase, unless something is highly specific to a single script.
 
 alpaca_prompt = """Below is an instruction that describes a task, paired with an input that
 provides further context. Write a response that appropriately completes the request.
@@ -41,3 +41,7 @@ AVAILABLE_UNSLOTH_MODELS = {
         "unsloth/Hermes-2-Pro-Mistral-7B-bnb-4bit",
     ]
 }
+
+
+
+
